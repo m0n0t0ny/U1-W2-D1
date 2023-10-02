@@ -15,22 +15,22 @@ REGOLE
 console.log("🔹 Esercizio 1");
 console.log("I datatype in ECMAScript 2015 possono essere:");
 console.log(
-  '- String: è un valore che può essere composto da numeri, lettere e simboli, purchè questi siano racchiusi fra virgolette (es. x = "ciao"; x1 = "7"; x2 = "Il risultato è 3,3!";).'
+  '✅ String: è un valore che può essere composto da letteri, numeri e simboli, purchè questi siano racchiusi fra virgolette (es. x1 = "ciao"; x2 = "Il risultato è 3,3!";).'
 );
 console.log(
-  "- Number: è un valore espresso in numeri interi o decimali (es. x4 = 44; x5 = 3,14; x6 = 204726289,2;)."
+  "✅ Number: è un valore espresso in numeri interi o decimali (es. x4 = 44; x5 = 3,14; x6 = 204726289,2;)."
 );
 console.log(
-  "- Boolean: è un valore che può essere solo true o false (es. x7 = true; x8 = false;)."
+  "✅ Boolean: è un valore che può essere solo true o false (es. x7 = true; x8 = false;)."
 );
 console.log(
-  "- Undefined: è un vaolre che non è ancora stato definito (es. let x9; let y;)."
+  "✅ Undefined: è un vaolre che non è ancora stato definito (es. let x9; let y;)."
 );
 console.log(
-  "- Null: è un valore intenzionalmente non definito, o meglio, temporaneamente definito come null e che verrà dichiarato in un momento successivo (es. y1 = null;)."
+  "✅ Null: è un valore intenzionalmente non definito, o meglio, temporaneamente definito come null e che verrà dichiarato in un momento successivo (es. y1 = null;)."
 );
 console.log(
-  "- Symbol:  è un valore molto poco utilizzato, rappresentato da entità univoca."
+  "✅ Symbol:  è un valore molto poco utilizzato, rappresentato da entità univoca."
 );
 
 /* ESERCIZIO 2
@@ -42,7 +42,7 @@ console.log("🔹 Esercizio 2");
 console.log('const name = "Antonio"');
 const name = "Antonio";
 console.log("console.log(name)");
-console.log(name);
+console.log("✅ " + name);
 
 /* ESERCIZIO 3
   Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -54,7 +54,7 @@ console.log("Possiamo sommare i numeri 12 e 20 in diversi modi, per esempio:");
 
 console.log("--- Direttamente da console");
 console.log("console.log(12 + 20)");
-console.log(12 + 20);
+console.log("✅ " + (12 + 20));
 
 console.log("--- Con let");
 console.log("let num1;");
@@ -68,7 +68,7 @@ num2 = 20;
 console.log("let num3 = num1 + num2;");
 let num3 = num1 + num2;
 console.log("console.log(num3);");
-console.log(num3);
+console.log("✅ " + num3);
 
 console.log("--- Con const");
 console.log("const num4 = 12;");
@@ -78,7 +78,7 @@ const num5 = 20;
 console.log("const num6 = num4 + num5;");
 const num6 = num4 + num5;
 console.log("console.log(num6);");
-console.log(num6);
+console.log("✅ " + num6);
 
 /* ESERCIZIO 4
   Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -92,7 +92,7 @@ console.log(
 console.log("const x = 12;");
 const x = 12;
 console.log("console.log(x);");
-console.log(x);
+console.log("✅ " + x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
@@ -110,7 +110,7 @@ console.log(
 console.log("name = 'Bertuccio';");
 console.log("console.log(name = 'Bertuccio');");
 console.log(
-  "Uncaught TypeError: Assignment to constant variable. at D1.js:111:6"
+  "✅ Uncaught TypeError: Assignment to constant variable. at D1.js:111:6"
 );
 
 /* ESERCIZIO 6
@@ -126,7 +126,7 @@ console.log(
   "Per esempio potremmo sottrarre il numero 4 alla variabile 'x' dichiarata in precedenza:"
 );
 console.log("console.log(4 - x);");
-console.log(4 - x);
+console.log("✅ " + (4 - x));
 
 /* ESERCIZIO 7
   Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -145,6 +145,6 @@ const name1 = "john";
 console.log('const name2 = "John";');
 const name2 = "John";
 console.log("console.log(name1 === name2);");
-console.log(name1 === name2);
+console.log("✅ " + (name1 === name2));
 console.log("console.log(name1 == name2.toLowerCase());");
-console.log(name1 == name2.toLowerCase());
+console.log("✅ " + (name1 == name2.toLowerCase()));
