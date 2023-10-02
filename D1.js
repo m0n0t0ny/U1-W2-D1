@@ -15,23 +15,26 @@ REGOLE
 console.log("🔹 Esercizio 1");
 console.log("I datatype in ECMAScript 2015 possono essere:");
 console.log(
-  '✅ String: è un valore che può essere composto da letteri, numeri e simboli, purchè questi siano racchiusi fra virgolette (es. x1 = "ciao"; x2 = "Il risultato è 3,3!";).'
+  "String: è un valore che può essere composto da letteri, numeri e simboli, purchè questi siano racchiusi fra virgolette."
 );
+console.log('✅ x1 = "ciao";');
+console.log('✅ x2 = "Il risultato è 3,3!";');
+console.log("Number: è un valore espresso in numeri interi o decimali.");
+console.log("✅ x3 = 44;");
+console.log("✅ x4 = 3,14;");
+console.log("Boolean: è un valore che può essere solo true o false.");
+console.log("✅ x5 = true;");
+console.log("✅ x6 = false;");
+console.log("Undefined: è un vaolre che non è ancora stato definito.");
+console.log("✅ let x7;");
 console.log(
-  "✅ Number: è un valore espresso in numeri interi o decimali (es. x4 = 44; x5 = 3,14; x6 = 204726289,2;)."
+  "Null: è un valore intenzionalmente non definito, o meglio, temporaneamente definito come null e che verrà dichiarato in un momento successivo."
 );
+console.log("✅ x8 = null;");
 console.log(
-  "✅ Boolean: è un valore che può essere solo true o false (es. x7 = true; x8 = false;)."
+  "Symbol:  è un valore molto poco utilizzato, rappresentato da un simbolo generato autonomamente e sempre nuovo."
 );
-console.log(
-  "✅ Undefined: è un vaolre che non è ancora stato definito (es. let x9; let y;)."
-);
-console.log(
-  "✅ Null: è un valore intenzionalmente non definito, o meglio, temporaneamente definito come null e che verrà dichiarato in un momento successivo (es. y1 = null;)."
-);
-console.log(
-  "✅ Symbol:  è un valore molto poco utilizzato, rappresentato da entità univoca."
-);
+console.log("const sym1 = Symbol();");
 
 /* ESERCIZIO 2
   Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
